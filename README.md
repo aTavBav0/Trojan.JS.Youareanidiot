@@ -5,6 +5,8 @@ If you want the files of the html5 recreation (and not just the flash version ar
 
 And update 2025 Lmfao Internet Explorer is also gone from windows. Well, there's methods to get it back, so just google it ig. Man time flies
 
+### I'd like to stress that this is an *archive* of the virus of its original state, and hence further edits of the code such as using ruffle or similar emulators to display the flash file goes against the philosophy of the archive. You are welcome to fork it and do whatever you want with it tho :)
+
 # What is Trojan.JS.Youareanidiot?
 Trojan.JS.Youareanidiot is the literal meaning of life (along with 42 ofc). See [danooct1's video](https://www.youtube.com/watch?v=LSgk7ctw1HY) for a demonstration. If link is broken (i.e. video/youtube account associated with the video dies), use *archive.org*. If all comes to naught just message me and I'll send you a torrent/download of it ig.
 
