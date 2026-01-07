@@ -1,7 +1,9 @@
 # **NOTICE**
-Flash has been broken since the end of 2020. I've made a very comprehensive writeup and recreation of this trojan on my website here *https://theaviary.me/Idiot!/*. If you want the files, just wget mirror the website directory (you probably dont want the overview page, but the recreations page... you'll get what I mean when you go there lol) and you can probably grab everything there that you need. Note that in the writeup isn't just the original flash as you see here but an actual html5 recreation that works on IE, and sort of works on modern browsers :)
+Flash has been broken since the end of 2020. I've made a very comprehensive writeup and recreation of this trojan on my website here *https://theaviary.me/Idiot!/*, and endermanch has also made his own version here https://www.youareanidiot.cc/ (direct link to the "virus", so open with care).
 
-Update 2025: Lmfao Internet Explorer is also gone from windows. Well, there's methods to get it back, so just google it ig. Man time flies
+If you want the files for my recreation, just wget mirror the website recreation once you have copied the link from my writeup and you can probably grab everything there that you need (or wait until i eventually add a download to the full zip tbh). Note that in the writeup isn't just the original flash as you see here but 2 html5 recreations of it that works on IE, and sort of works on modern browsers :), so you can choose your version ig idk if you want to archive it.
+
+And update 2025 Lmfao Internet Explorer is also gone from windows. Well, there's methods to get it back, so just google it ig. Man time flies
 
 # What is Trojan.JS.Youareanidiot?
 Trojan.JS.Youareanidiot is the literal meaning of life (along with 42 ofc). See [danooct1's video](https://www.youtube.com/watch?v=LSgk7ctw1HY) for a demonstration. If link is broken (i.e. video/youtube account associated with the video dies), use *archive.org*. If all comes to naught just message me and I'll send you a torrent/download of it ig.
@@ -39,7 +41,7 @@ Turn off antivirus. Download the code in this repository and unzip it into a fol
 
 ***HOWEVER***, if you try to exit out of the tab with the shortcuts ctrl+w, alt+f4, or press the delete button, a cute little alert will intercept that shortcut with the message of "You are an idiot" (no closing tabs 4 u haha), and then wallah!, 4 more bouncy tabs telling that you are an idiot will appear.
 
-# HELP! HOW DO I STOP BECOMING IDIOT?!
+## HELP! HOW DO I STOP BECOMING IDIOT?!
 You can't. :-)
 
 <sup>jkjkjk just use task manager to close the broswer (iexplorer.exe or firefox.exe or something like that). I suggest you open task manager before openning the Idiot!.html tho cause it will be hard to open task manager with the windows flying. You can also use the terminal with the taskkill command.<sup>
@@ -47,9 +49,11 @@ You can't. :-)
 # It's 2021. How to get it to work?
 I give a comprehensive overview on how to get it working on my website *https://theaviary.me/Idiot!/*.
 
-  - Internet Explorer: Uninstall the remove flash disabling update. I believe in you that if you got windows before 2021 you will eventually find a way to revert it. Ask reddit or something if you are actually stuck 😂. If you can't because you installed Windows with media made after 2020 then sucks to be you I guess ¯\\\_(ツ)\_/¯. Still though you'll find a way I'm sure 😎.
+  - Internet Explorer: Uninstall the remove flash disabling update. I believe in you that if you got windows before 2021 you will eventually find a way to revert it. If you can't because you installed Windows with media made after 2020 then sucks to be you I guess ¯\\\_(ツ)\_/¯, simply find an install that has flash enabled xd. I really should emphasize that for best effect, figure out a way to get flash working on an IE version, this genuinly should not be too difficult to do, hell use a VM of an old windows version if you aren't able to find any windows 10 version supporting flash and has IE lol.
 
   - Firefox 2016- portable: You're good. If you don't have it, download it from the link supplied above. If the link is down, then message me for a torrent/download of the files or something but idk tbh.
 
 # Disclaimer!!!
 Everything here in this repository has been made for educational purposes, with the more destructive aspects of it assumed to only be viewed and/or ran in a controlled testing environment only. I do ***NOT*** enourage people to do something like this themselves/to themselves. ***NEVER*** use malware, or anything that is, but no limited to, malware, anything remotely capable of destroying computers, or even "joke programs" *on your own or other people's computers*, not even with their consent, as this can have bad, unforeseen consequences.
+
+Also tbh this isn't really malware in the contemporary sense but just a joke fork bomb so make of that what you will.
