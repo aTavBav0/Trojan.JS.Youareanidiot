@@ -1,5 +1,5 @@
 # **NOTICE**
-Flash has been broken since the end of 2020. I've made a very comprehensive writeup and recreation of this trojan on my website here *https://theaviary.me/Idiot!/*, and endermanch has also made his own version here https://www.youareanidiot.cc/ (direct link to the "virus", so open with care).
+Flash has been broken since the end of 2020. I've made a very comprehensive writeup and recreation of this trojan on my website here *https://theaviary.me/Idiot!/*, and endermanch has also made his own version here *https://www.youareanidiot.cc/* (direct link to the "virus", so open with care).
 
 If you want the files for my recreation, just wget mirror the website recreation once you have copied the link from my writeup and you can probably grab everything there that you need (or wait until i eventually add a download to the full zip tbh). Note that in the writeup isn't just the original flash as you see here but 2 html5 recreations of it that works on IE, and sort of works on modern browsers :), so you can choose your version ig idk if you want to archive it.
 
