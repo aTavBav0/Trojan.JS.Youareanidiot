@@ -1,10 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta charset="windows-1252">
 <title>You are an idiot!</title>
-<script src="./lol_files/you.js"></script>
 
-<!-- Ruffle loader -->
+<script src="./lol_files/you.js"></script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
 <style>
@@ -13,7 +13,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 #flash-container {
     width: 100%;
@@ -23,27 +23,27 @@ html, body {
 
 </head>
 
-<body bgcolor="#ffffff"
-onload="flagRun=1;playBall();return true;"
-onkeydown="altf4key();ctrlwkey();delkey();"
-onmouseout="procreate();"
-leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body>
 
 <div id="flash-container"></div>
 
 <script>
 window.RufflePlayer = window.RufflePlayer || {};
-window.addEventListener("DOMContentLoaded", () => {
+
+function startFlash() {
     const ruffle = window.RufflePlayer.newest();
     const player = ruffle.createPlayer();
-
-    document.getElementById("flash-container").appendChild(player);
 
     player.style.width = "100%";
     player.style.height = "100%";
 
+    document.getElementById("flash-container").appendChild(player);
+
+    // Auto‑run the SWF
     player.load("./lol_files/youare.swf");
-});
+}
+
+window.addEventListener("load", startFlash);
 </script>
 
 </body>
