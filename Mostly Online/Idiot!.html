@@ -1,24 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta charset="UTF-8">
+<title>You are an idiot!</title>
 
-<title>Idiot!</title>
-
-<meta name="Author" content="A mystery tbh">
-<meta name="Keywords" content="you are an idiot, you, are, an, idiot, fool">
-<meta name="Description" content="The first and best flash video on the 'net.">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="You are an idiot!">
-<meta property="og:description" content="This is a new malicious iteration of the legendary website.">
-
-<meta property="og:image" content="idiot.png">
-<meta property="og:image:width" content="256">
-<meta property="og:image:height" content="256">
-
-<script src="./Idiot!_files/you.js"></script>
-
-<!-- Ruffle loader -->
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
 <style>
@@ -33,31 +18,24 @@ html, body {
     height: 100%;
 }
 </style>
-
 </head>
 
-<body bgcolor="#ffffff"
-onload="flagRun=1;playBall();return true;bookmark();"
-onkeydown="altf4key();ctrlwkey();delkey();"
-onmouseout="procreate();"
-leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body>
 
 <div id="flash-container"></div>
 
 <script>
-window.RufflePlayer = window.RufflePlayer || {};
 window.addEventListener("DOMContentLoaded", () => {
-
     const ruffle = window.RufflePlayer.newest();
     const player = ruffle.createPlayer();
-
-    document.getElementById("flash-container").appendChild(player);
 
     player.style.width = "100%";
     player.style.height = "100%";
 
-    player.load("./Idiot!_files/youare.swf");
+    document.getElementById("flash-container").appendChild(player);
 
+    // Auto-load and run the SWF
+    player.load("youare.swf");
 });
 </script>
 
